@@ -1,103 +1,50 @@
+import Footer from "@/components/local/footer";
+import Header from "@/components/local/header";
+import Menu from "@/components/local/menu";
+import Sidebar from "@/components/local/sidebar";
 import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-[family-name:var(--font-geist-mono)] font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+    <div className="w-screen h-screen">
+      <Header />
+      <Sidebar />
+      <Menu page="inicio" />
+      <Footer />
+      <div className="w-full pl-12 flex flex-col items-center justify-center gap-8 pt-20">
+        <Image alt="logo" width={300} height={300} src={"/logo-horizontal.png"} />
+        <div className="flex flex-col items-center justify-center gap-6">
+          <div className="flex gap-1 pt-10">
+            <p className="font-bold text-7xl text-[#0099DB]">3ª</p>
+            <div>
+              <p className="font-semibold text-4xl">Semana da Informática</p>
+              <p className="font-semibold text-3xl text-[#D7D7D7]">IFRS - Campus Feliz</p>
+            </div>
+          </div>
+          <p className="font-semibold text-2xl text-[#D7D7D7]">12 a 16 de agosto, 2025</p>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+        <div className="flex pt-10 gap-5">
+          <div className="w-[500px]"></div>
+          <div className="w-0.5 bg-[#D7D7D7]" />
+          <div className="w-[500px] flex flex-col gap-4">
+            <p>
+              A Semana da Informática é um evento que tem como<br></br>
+              objetivo promover a disseminação do conhecimento na<br></br>
+              área de tecnologia da informação e comunicação. O<br></br>
+              evento reúne estudantes, professores, pesquisadores e<br></br>
+              profissionais de diferentes áreas de atuação para discutir<br></br>
+              tendências, inovações e desafios do setor.
+            </p>
+            <p>
+              Durante a Semana da Informática, serão realizadas<br></br>
+              palestras, painéis, workshops, minicursos e outras<br></br>
+              atividades que visam aprofundar o conhecimento em<br></br>
+              áreas como programação, desenvolvimento de software,<br></br>
+              inteligência artificial, entre outras.
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
