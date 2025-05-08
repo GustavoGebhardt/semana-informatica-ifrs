@@ -22,7 +22,6 @@ export default function Home() {
           <p className="font-semibold text-xl text-[#D7D7D7] sm:text-2xl">12 a 16 de agosto, 2025</p>
         </div>
         <div className="flex flex-col-reverse justify-center pt-10 gap-5 sm:flex-row">
-          <p>teste</p>
           <div className="w-0.5 bg-[#D7D7D7] hidden sm:block" />
           <div className="flex flex-col gap-4">
             <p className="w-[300px] text-start sm:text-start sm:w-[460px]">

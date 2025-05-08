@@ -3,6 +3,7 @@ import Menu from "@/components/local/menu";
 import Sidebar from "@/components/local/sidebar";
 import { ExternalLink, FileText } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function ConcursoTecnico() {
   return (
@@ -21,20 +22,24 @@ export default function ConcursoTecnico() {
           </div>
         </div>
         <div className="flex flex-col-reverse justify-center pt-10 gap-5 sm:flex-row">
-          <div className="flex flex-col gap-2">
-            <p className="font-semibold">Regulamento do concurso</p>
-            <div className="w-48 h-12 bg-white rounded-lg p-1 flex items-center gap-2">
-              <div className="w-10 h-full bg-[#0099DB] rounded-md flex items-center justify-center"><FileText width={15} height={15} /></div>
-              <p className="text-[#333333] font-bold text-sm">Arquivo.pdf</p>
-              <ExternalLink width={15} height={15} color="black" className="ml-5" />
+            <div className="flex flex-col gap-2">
+              <p className="font-semibold">Regulamento do concurso</p>
+              <Link href={"https://docs.google.com/document/d/1pv00hWkE69aKvK5s2-FThWl7vEo17DczTSXb0EyMH-s/edit?usp=drivesdk"} target="_blank">
+                <div className="w-48 h-12 bg-white rounded-lg p-1 flex items-center gap-2">
+                  <div className="w-10 h-full bg-[#0099DB] rounded-md flex items-center justify-center"><FileText width={15} height={15} /></div>
+                  <p className="text-[#333333] font-bold text-sm">Regulamento</p>
+                  <ExternalLink width={15} height={15} color="black" className="ml-5" />
+                </div>
+              </Link>
+              <p className="font-semibold">Trabalhos Homologados</p>
+              <Link href={"https://docs.google.com/forms/d/e/1FAIpQLSc_-xDbS3KkXCfpvrY-zKPqagjB9sag8CQDZRj5dzq-Z-7A-Q/viewform?usp=sharing"} target="_blank">
+                <div className="w-48 h-12 bg-white rounded-lg p-1 flex items-center gap-2">
+                  <div className="w-10 h-full bg-[#0099DB] rounded-md flex items-center justify-center"><FileText width={15} height={15} /></div>
+                  <p className="text-[#333333] font-bold text-sm">Inscrição</p>
+                  <ExternalLink width={15} height={15} color="black" className="ml-11" />
+                </div>
+              </Link>
             </div>
-            <p className="font-semibold">Trabalhos Homologados</p>
-            <div className="w-48 h-12 bg-white rounded-lg p-1 flex items-center gap-2">
-              <div className="w-10 h-full bg-[#0099DB] rounded-md flex items-center justify-center"><FileText width={15} height={15} /></div>
-              <p className="text-[#333333] font-bold text-sm">Arquivo.pdf</p>
-              <ExternalLink width={15} height={15} color="black" className="ml-5" />
-            </div>
-          </div>
           <div className="w-0.5 bg-[#D7D7D7] hidden sm:block" />
           <div className="flex flex-col gap-4">
             <p className="w-[310px] text-start sm:text-start sm:w-[460px]">
