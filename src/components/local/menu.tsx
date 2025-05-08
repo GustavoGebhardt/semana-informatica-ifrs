@@ -7,7 +7,7 @@ interface MenuProps {
 
 export default function Menu({ page }: MenuProps){
   return(
-    <div className="w-full h-18 pl-12 pt-8 bg-[#2B2B2B] flex">
+    <div className="w-full h-[74px] pl-12 pt-8 bg-[#2B2B2B] hidden md:flex">
       <Link href={"/"} className={`w-fit h-full ${page == "inicio" ? "bg-[#212121]" :  "bg-[#373737]"}`}>
         <div className="w-full h-full pl-4 pr-4 flex items-center justify-center gap-1">
           <Image alt="htmlincon" width={20} height={20} src={"/icon.png"} />
