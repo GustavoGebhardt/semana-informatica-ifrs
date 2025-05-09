@@ -23,7 +23,7 @@ export default function ConcursoTecnico() {
         </div>
         <div className="flex flex-col-reverse justify-center pt-10 gap-5 sm:flex-row">
             <div className="flex flex-col gap-2">
-              <p className="font-semibold">Regulamento do concurso</p>
+              <p className="font-semibold">Regulamento do Concurso</p>
               <Link href={"https://docs.google.com/document/d/1pv00hWkE69aKvK5s2-FThWl7vEo17DczTSXb0EyMH-s/edit?usp=drivesdk"} target="_blank">
                 <div className="w-48 h-12 bg-white rounded-lg p-1 flex items-center gap-2">
                   <div className="w-10 h-full bg-[#0099DB] rounded-md flex items-center justify-center"><FileText width={15} height={15} /></div>
@@ -31,7 +31,7 @@ export default function ConcursoTecnico() {
                   <ExternalLink width={15} height={15} color="black" className="ml-5" />
                 </div>
               </Link>
-              <p className="font-semibold">Trabalhos Homologados</p>
+              <p className="font-semibold">Inscrição do Concurso</p>
               <Link href={"https://docs.google.com/forms/d/e/1FAIpQLSc_-xDbS3KkXCfpvrY-zKPqagjB9sag8CQDZRj5dzq-Z-7A-Q/viewform?usp=sharing"} target="_blank">
                 <div className="w-48 h-12 bg-white rounded-lg p-1 flex items-center gap-2">
                   <div className="w-10 h-full bg-[#0099DB] rounded-md flex items-center justify-center"><FileText width={15} height={15} /></div>
