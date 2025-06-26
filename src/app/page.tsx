@@ -21,7 +21,8 @@ export default function Home() {
           </div>
           <p className="font-semibold text-xl text-[#D7D7D7] sm:text-2xl">12 a 16 de agosto, 2025</p>
         </div>
-        <div className="flex flex-col-reverse justify-center pt-10 gap-5 sm:flex-row">
+        <div className="flex flex-col-reverse justify-center pt-10 pb-20 gap-5 sm:flex-row">
+          <Image alt="home image" width={280} height={280} src={"/home-image.png"} className="w-full h-full" />
           <div className="w-0.5 bg-[#D7D7D7] hidden sm:block" />
           <div className="flex flex-col gap-4">
             <p className="w-[300px] text-start sm:text-start sm:w-[460px]">
@@ -38,6 +39,11 @@ export default function Home() {
               atividades que visam aprofundar o conhecimento em
               áreas como programação, desenvolvimento de software,
               inteligência artificial, entre outras.
+            </p>
+            <p className="w-[300px] text-start sm:text-start sm:w-[460px]">
+              A Semana da Informática acontecerá entre os dias
+              12 e 16 de agosto de 2025, proporcionando uma oportunidade
+              única de aprendizado e troca de experiências.
             </p>
           </div>
         </div>

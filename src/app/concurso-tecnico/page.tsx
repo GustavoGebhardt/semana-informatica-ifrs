@@ -26,7 +26,7 @@ export default function ConcursoTecnico() {
               <p className="font-semibold">Regulamento do Concurso</p>
               <Link href={"https://docs.google.com/document/d/1pv00hWkE69aKvK5s2-FThWl7vEo17DczTSXb0EyMH-s/edit?usp=drivesdk"} target="_blank">
                 <div className="w-48 h-12 bg-white rounded-lg p-1 flex items-center gap-2">
-                  <div className="w-10 h-full bg-[#0099DB] rounded-md flex items-center justify-center"><FileText width={15} height={15} /></div>
+                  <div className="w-10 h-full bg-[#db5400] rounded-md flex items-center justify-center"><FileText width={15} height={15} /></div>
                   <p className="text-[#333333] font-bold text-sm">Regulamento</p>
                   <ExternalLink width={15} height={15} color="black" className="ml-5" />
                 </div>
