@@ -46,22 +46,6 @@ export default function Hackathon() {
                 </div>  
               </Link>
               <>
-                <p className="font-semibold">Resultado Final Iniciação</p>
-                <Link href={"/hackathon"} target="_blank">
-                  <div className="w-56 h-12 bg-[#dadada] rounded-lg p-1 flex items-center justify-between gap-2">
-                    <div className="w-10 h-full bg-[#414141] rounded-md flex items-center justify-center"><FileText width={15} height={15} /></div>
-                    <p className="text-[#333333] font-bold text-sm">Resultado</p>
-                    <ExternalLink width={15} height={15} color="black" className="ml-16" />
-                  </div>  
-                </Link>
-                <p className="font-semibold">Resultado Final Programação</p>
-                <Link href={"/hackathon"} target="_blank">
-                  <div className="w-56 h-12 bg-[#dadada] rounded-lg p-1 flex items-center justify-between gap-2">
-                    <div className="w-10 h-full bg-[#414141] rounded-md flex items-center justify-center"><FileText width={15} height={15} /></div>
-                    <p className="text-[#333333] font-bold text-sm">Resultado</p>
-                    <ExternalLink width={15} height={15} color="black" className="ml-16" />
-                  </div>
-                </Link>
               </>
             </div>
           <div className="w-0.5 bg-[#D7D7D7] hidden sm:block" />
