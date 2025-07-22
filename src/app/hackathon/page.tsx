@@ -18,7 +18,7 @@ export default function Hackathon() {
             <p className="font-semibold text-2xl sm:text-4xl">Hackathon</p>
           </div>
         </div>
-        <p className="w-[270px] font-semibold text-center text-xl pt-6 text-[#D7D7D7] sm:text-2xl sm:w-full">Data limite para inscrições: 28 de Julho</p>
+        <p className="w-[270px] font-semibold text-center text-xl pt-6 text-[#D7D7D7] sm:text-2xl sm:w-full">Data limite para inscrições: 10 de Agosto</p>
         <div className="flex flex-col-reverse justify-center pt-10 gap-5 sm:flex-row">
             <div className="flex flex-col gap-2">
               <p className="font-semibold">Regulamento da Hackathon</p>
@@ -56,8 +56,8 @@ export default function Hackathon() {
               Algumas informações importantes:<br></br>
               - Limitado a 8 equipes (por ordem de inscrição)<br></br>
               - Equipes podem ter 4 ou 5 membros, além de 2 suplentes<br></br>
-              - Encerramento das inscrições 28/07/2025 às 23:59<br></br>
-              - Divulgação das inscrições homologadas 01/08/2024<br></br>
+              - Encerramento das inscrições 10/08/2025 às 23:59<br></br>
+              - Divulgação das inscrições homologadas 11/08/2025<br></br>
               - Credenciamento 15/08/2025 das 18h às 19h30<br></br>
               - Inicio da competição 15/08/2025 às 20h<br></br>
               - Fim da competição 16/08/2025 às 12h<br></br>
