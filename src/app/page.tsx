@@ -19,7 +19,7 @@ export default function Home() {
               <p className="font-semibold text-1xl text-[#D7D7D7] sm:text-3xl">IFRS - Campus Feliz</p>
             </div>
           </div>
-          <p className="font-semibold text-xl text-[#D7D7D7] sm:text-2xl">12 a 16 de agosto, 2025</p>
+          <p className="font-semibold text-xl text-[#D7D7D7] sm:text-2xl">11 a 15 de agosto, 2025</p>
         </div>
         <div className="flex flex-col-reverse justify-center pt-10 pb-20 gap-5 sm:flex-row">
           <Image alt="home image" width={280} height={280} src={"/home-image.png"} className="w-full h-full" />

@@ -14,8 +14,9 @@ export default function Hackathon() {
       <div className="w-full pl-12 flex flex-col items-center justify-center gap-8 pt-20">
         <Image alt="logo" width={300} height={300} src={"/logo-horizontal.png"} className="w-56 h-auto object-contain sm:w-72 h-auto object-contain" />
         <div className="flex flex-col items-center justify-center gap-6">
-          <div className="flex gap-1 pt-10">
+          <div className="flex flex-col items-center justify-center gap-10 pt-10 sm:flex-row">
             <p className="font-semibold text-2xl sm:text-4xl">Hackathon</p>
+            <Image alt="logo" width={300} height={300} src={"/logo-hackathon.png"} />
           </div>
         </div>
         <p className="w-[270px] font-semibold text-center text-xl pt-6 text-[#D7D7D7] sm:text-2xl sm:w-full">Data limite para inscrições: 10 de Agosto</p>
