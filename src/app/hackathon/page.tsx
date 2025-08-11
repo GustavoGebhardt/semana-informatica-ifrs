@@ -46,8 +46,14 @@ export default function Hackathon() {
                   <ExternalLink width={15} height={15} color="black" className="ml-12" />
                 </div>  
               </Link>
-              <>
-              </>
+              <p className="font-semibold">Equipes Homologadas</p>
+              <Link href={"docs/Equipes-Homologadas-Hackathon-2025.pdf"} target="_blank">
+                <div className="w-56 h-12 bg-white rounded-lg p-1 flex items-center justify-between gap-2">
+                  <div className="w-10 h-full bg-[#05ac7a] rounded-md flex items-center justify-center"><FileText width={15} height={15} /></div>
+                  <p className="text-[#333333] font-bold text-sm">Equipes</p>
+                  <ExternalLink width={15} height={15} color="black" className="ml-18" />
+                </div>  
+              </Link>
             </div>
           <div className="w-0.5 bg-[#D7D7D7] hidden sm:block" />
           <div className="flex flex-col gap-4">
